@@ -1,0 +1,65 @@
+
+
+#blue {
+    background-color: #191645;
+}
+
+#img {
+    display: flex;
+    flex-wrap: nowrap;
+}
+main  {    
+    width: 1000px;
+    margin: 0 auto;
+    order: 1;
+    background-color: whitesmoke;
+    
+}
+nav {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #191645;
+}
+
+nav ul {
+        list-style-type: none;
+        width: 1000;
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+ nav li {display: inline;}
+
+ nav a {
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav a:link {color: whitesmoke}
+
+nav a:hover {
+    background-color: whitesmoke;
+    color: #191645;
+}
+h1 {
+    width: 1000px;
+    margin: 0 auto
+}
+#About_Us {
+    width: 800px;
+    margin: 0 auto;
+}
+.margin {
+    padding-right: 449px;
+}
+.p {
+    text-indent: 2.5em;
+}
+.background {
+    background-color: #191645;
+}
