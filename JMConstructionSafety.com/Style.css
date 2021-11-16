@@ -33,6 +33,7 @@ nav ul {
  nav li {display: inline;}
 
  nav a {
+    font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -62,4 +63,23 @@ h1 {
 }
 .background {
     background-color: #191645;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Cardo', serif;
+}
+h2 {
+    color: #191645;
+    font-family: 'Cardo', serif;
+}
+
+h3 {
+    color: #191645;
+    font-family: 'Cardo', serif;
+}    
+
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
 }
