@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     color: white;
 }
-
+/*This is for the header background and colours ^*/
 #jm {
     display:flex;
     justify-content: flex-start;
@@ -16,8 +16,10 @@
     align-items: center;
 }
 
+/*This makes the nav blend with the header (it took me awhile to figure this out)*/
+
 img {
-    float: right;
+    float: right;   
 }
 
 iframe {
@@ -124,15 +126,6 @@ footer {
   padding: 20px 0;
 }
 
-.show-items {
-  display: flex;
-}
-
-nav .toggle {
-  align-self: flex-end;
-  position: absolute;
-  cursor: pointer;
-}
 
 article
  {
