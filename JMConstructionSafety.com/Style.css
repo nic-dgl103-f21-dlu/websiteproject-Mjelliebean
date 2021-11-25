@@ -151,20 +151,17 @@ footer {
   nav {
     width: 480px;
     margin: 0 auto;
-    flex-direction: column;
   }
 
-  nav li { display: flex;
+  nav li {
   width: 100%;
   margin: auto;
   max-width: 480px;
-  flex-direction:column;
   }
 
-nav ul {
+nav ul { display: flex;
   list-style-type: none;
   width: 480px;
-  flex-direction: column;
 }
 
 main {
