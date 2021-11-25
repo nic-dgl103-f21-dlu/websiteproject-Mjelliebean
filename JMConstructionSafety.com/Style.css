@@ -47,7 +47,7 @@ nav ul {
  nav a {
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
-    color: chocolate;
+    color: white;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 10px;
@@ -117,9 +117,6 @@ ul {
 }
 
 
-footer {
-  text-align: center;
-}
 
 header,
 footer {
@@ -149,11 +146,70 @@ footer {
 }
 
 
+/* Small Devices (Mobile phones and up) */
+@media (max-width: 480px) {
+
+  nav {
+    max-width:480px;
+    font-size: x-small;
+  }
+
+  nav li { display: inline-block;
+  width: 100%;
+  margin: auto;
+  max-width: 480px;
+  }
+
+nav ul {
+  text-align: center;
+}
+
+main {
+  float: left;
+  padding: 0;
+  width: 94%;
+  margin: 3%;
+}
+header {
+  float: left;
+  padding: 0;
+  width: 94%;
+  margin: 3%;
+  font-size: x-small;
+}
+
+img { float: none;
+}
+
+#wrapper {
+  width: 75%;
+  margin: auto;
+  max-width: 480px;
+}
+
+footer { clear: both;
+  font-size: x-small;
+}
+
+#blue {
+  background-color: #191645;
+  background-image: url(Images/hard-hat.jpg);
+  box-shadow: inset 0 0 0 1000px rgba(25,22,69,.7);
+  background-position: right;
+  background-repeat: no-repeat;
+  color: white;
+  max-width: 480px;
+}
+
+}
+
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  nav .menu-label {
-    display: none;
-  }
+
+header {
+  width: 75%
+}
 
   nav ul {
     display: flex;
@@ -169,7 +225,7 @@ footer {
   }
 
   main {
-    display: flex;
+    width: 70%;
   }
 
   article {

@@ -11,10 +11,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <div id="wrapper">
         <div id="blue">
         <header>
             <div id="jm">
@@ -25,16 +25,14 @@
             </div>
         </header>
         <nav>
-
-            <div class="menu-label">Menu</div>
             <ul id="nav-items">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Services.html">Services</a></li>
                 <li><a href="Contact_Us.html">Contact Us</a></li>
                 <li><a href="About_Us.html">About Us</a></li>
             </ul>
-            <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
         </nav>
+        </div>
         </div>
         <main>
             <article>
@@ -69,8 +67,9 @@
     
                <p>All this is from construction falls alone and proves that safety services are needed on the work site. </p>
                <h4>More Statistics:</h4>
-               <p class="margin">Workplace injuries in BC Statistic in 2010-</p>
                <img src="Images/Traffic-cone.jpg" alt="Traffic Cones" width="274" height="182">
+               <p class="margin">Workplace injuries in BC Statistics 2010-</p>
+
                <ul>
                      <li>$4, 649, 107, 558 claim costs</li>
                      <li>7,718,727 days lost from work</li>
@@ -85,11 +84,6 @@
            This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside the class 
            enviroment. None of the content and images were approved by the business owner.
         </footer>
-        <script>
-            function showNav() {
-              var element = document.getElementById("nav-items");
-              element.classList.toggle("show-items");
-            }
-          </script>
+
     </body>
 </html>
