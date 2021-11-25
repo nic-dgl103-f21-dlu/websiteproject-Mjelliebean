@@ -1,24 +1,38 @@
 
-
 #blue {
     background-color: #191645;
+    background-image: url(Images/hard-hat.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(25,22,69,.7);
+    background-position: right;
+    background-repeat: no-repeat;
+    color: white;
 }
 
-#img {
-    display: flex;
+#jm {
+    display:flex;
+    justify-content: flex-start;
     flex-wrap: nowrap;
+    align-items: center;
 }
+
+img {
+    float: right;
+}
+
+iframe {
+    float: right;
+}
+
 main  {    
     width: 1000px;
     margin: 0 auto;
-    order: 1;
     background-color: white;
     
 }
 nav {
     width: 1000px;
     margin: 0 auto;
-    background-color: #191645;
+    flex-direction: column;
 }
 
 nav ul {
@@ -27,14 +41,13 @@ nav ul {
         margin: 0 auto;
         padding-top: 15px;
         padding-bottom: 15px;
+        flex-direction: column;
     }
-
-
- nav li {display: inline;}
 
  nav a {
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
+    color: chocolate;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 10px;
@@ -45,7 +58,7 @@ nav a:link {color: white}
 
 nav a:hover {
     background-color: white;
-    color: #191645;
+    color: chocolate;
 }
 h1 {
     width: 1000px;
@@ -61,6 +74,12 @@ h1 {
 .p {
     text-indent: 2.5em;
 }
+
+.pf {
+    flex-wrap: nowrap;
+    font-size: 2em;
+}
+
 .background {
     background-color: #191645;
 }
@@ -86,6 +105,11 @@ h4 {
 
 p {
     font-family: 'Josefin Sans', sans-serif;
+}
+
+aside {
+    padding: 20px;
+    text-align: center;
 }
 
 ul {
@@ -114,8 +138,16 @@ nav .toggle {
 
 article
  {
-  padding: 200px 0;
+  padding: 50px 0;
 }
+
+
+footer {
+  background-color: #191645;
+  color: white;
+  font-family: 'Cardo', serif;
+}
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -140,6 +172,10 @@ article
     display: flex;
   }
 
+  article {
+    flex: 2 1 0;
+    margin-right: 10px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -154,6 +190,7 @@ label {
     float: left; clear: left; display: block;
     width: 100px; padding-right: 10px;
     margin-top: 10px; text-align: right;
+    font-family: 'Cardo', serif;
 }
 input {
     display: block; margin-top: 10px;
@@ -163,28 +200,28 @@ input[ type="submit"] {margin-left: 110px;}
 
 /*buttons*/
 input[type="reset"] {
-    color: #0e7a0d;
+    color: chocolate;
     padding: 12px 20px;
-    border: 1px solid #0e7a0d;
+    border: 1px solid chocolate;
     border-radius: 4px;
     cursor: pointer;
   }
   
   input[type="reset"]:hover {
-    background-color: #d1efe3;
+    background-color: #ffd8b9;
   }
   
   input[type="submit"] {
-    background-color: #0e7a0d;
+    background-color: chocolate;
     color: white;
     padding: 12px 20px;
-    border: 1px solid #0e7a0d;
+    border: 1px solid chocolate;
     border-radius: 4px;
     cursor: pointer;
   }
   
   input[type="submit"]:hover {
-    background-color: #00ab66;
+    background-color: #f0935e;
   }
 
   /*structure*/
@@ -230,7 +267,7 @@ input[type="email"] {
 }
 
 textarea {
-  font-family: sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 fieldset {
@@ -240,5 +277,5 @@ fieldset {
 
 .label-required {
   font-size: 0.8rem;
-  color: red;
+  color: chocolate;
 }

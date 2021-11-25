@@ -17,13 +17,17 @@
     <body>
         <div id="blue">
         <header>
+            <div id="jm">
             <a href="index.html"><img src="images/JMLogo.png" alt="J&M Construction Safety Consulting" width="252" height="108"></a>
             <h1>
                 J&M Construction Consultation
             </h1>
+            </div>
         </header>
         <nav>
-            <ul>
+
+            <div class="menu-label">Menu</div>
+            <ul id="nav-items">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Services.html">Services</a></li>
                 <li><a href="Contact_Us.html">Contact Us</a></li>
@@ -37,28 +41,24 @@
          <h3>
           Keeping Everyone Safe
          </h3>
-         <div id="img">
+         <div class="img">
+         <img src="images/man-with-safety-hat.jpg" alt="man with safety hat" width="274" height="182">
          <p class="p">
              At J&amp;M Construction Safety Consulting, our goal is to keep you and your employees safe on the work site.
              Accidents happen all the time and without proper precautions these accidents could lead to serious injuries. 
              With our help we can prevent accidents and create programs to ensure safety and comfort in the construction 
              area. If you choose our company we can provide you with safety plans specific to your company.
           </p>
-          <img src="images/man-with-safety-hat.jpg" alt="man with safety hat" width="274" height="182">
-          </div>
                 <h3>
                     Why we are needed
                 </h3>
     
     
                 <p>Without proper safety plans construction sites are hazardous and could lead to disastrous outcomes. </p>
-                <div id="img">
                 <p>Construction Industry: Related to falls from heights</p>
-                <iframe src="https://www.youtube.com/watch?v=GuqMJy_e3U4" width="274" height="182">
-                <a href="https://www.youtube.com/watch?v=GuqMJy_e3U4">Construction Safety</a>
+                <iframe src="https://www.youtube.com/embed/GuqMJy_e3U4" width="274" height="182">
                 </iframe>
                 <!--I looked ahead in the book to put the video in, but it didn't work and I'm not sure why-->
-                </div>
                 <ul>
                      <li>28 work related deaths</li>
                      <li>2,111 serious injuries</li>
@@ -69,10 +69,8 @@
     
                <p>All this is from construction falls alone and proves that safety services are needed on the work site. </p>
                <h4>More Statistics:</h4>
-               <div id="img">
                <p class="margin">Workplace injuries in BC Statistic in 2010-</p>
                <img src="Images/Traffic-cone.jpg" alt="Traffic Cones" width="274" height="182">
-               </div>
                <ul>
                      <li>$4, 649, 107, 558 claim costs</li>
                      <li>7,718,727 days lost from work</li>
@@ -83,5 +81,15 @@
          <p>J&amp;M Construction Safety Consultation  can help shrink these injury numbers; as well as save the company time and money</p> 
          </article>
         </main>
+        <footer>
+           This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside the class 
+           enviroment. None of the content and images were approved by the business owner.
+        </footer>
+        <script>
+            function showNav() {
+              var element = document.getElementById("nav-items");
+              element.classList.toggle("show-items");
+            }
+          </script>
     </body>
 </html>
