@@ -149,19 +149,21 @@ footer {
   }
 
   nav {
-    max-width:480px;
-    font-size: x-small;
+    width: 480px;
+    margin: 0 auto;
     flex-direction: column;
   }
 
-  nav li { display: inline-block;
+  nav li { display: flex;
   width: 100%;
   margin: auto;
   max-width: 480px;
+  flex-direction:column;
   }
 
 nav ul {
-  text-align: left;
+  list-style-type: none;
+  width: 480px;
   flex-direction: column;
 }
 
@@ -177,15 +179,6 @@ header {
   width: 94%;
   margin: 3%;
   font-size: x-small;
-}
-
-img { float: none;
-}
-
-#wrapper {
-  width: 75%;
-  margin: auto;
-  max-width: 480px;
 }
 
 footer { clear: both;
