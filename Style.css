@@ -1,7 +1,7 @@
 
 #bg { /*I named this BG short for background */
     background-color: #191645;
-    background-image: url(Images/hard-hat.jpg);
+    background-image: url(images/hard-hat.jpg);
     box-shadow: inset 0 0 0 1000px rgba(25,22,69,.7); 
     /*Used code from: https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image for this part*/
     background-position: right;
