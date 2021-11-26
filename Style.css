@@ -1,5 +1,5 @@
 
-#blue {
+#bg { /*I named this BG short for background */
     background-color: #191645;
     background-image: url(Images/hard-hat.jpg);
     box-shadow: inset 0 0 0 1000px rgba(25,22,69,.7); 
@@ -9,7 +9,7 @@
     color: white;
 }
 /*This is for the header background and colours ^*/
-#jm {
+#jm { /*This is to keep things in  the right spots*/
     display:flex;
     justify-content: flex-start;
     flex-wrap: nowrap;
@@ -18,11 +18,11 @@
 
 /*This makes the nav blend with the header (it took me awhile to figure this out)*/
 
-img {
+img { /*The images*/
     float: right;   
 }
 
-iframe {
+iframe {/*In my wireframes this was supposed to go to the right side, however I liked the images and video lining up together*/
     float: right;
 }
 
@@ -110,7 +110,12 @@ p {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-aside {
+.email {
+  color: chocolate;
+  text-decoration: none;
+}
+
+aside { /*The aside was only used once for the contacts page at the end*/
     padding: 20px;
     text-align: center;
 }
@@ -140,7 +145,7 @@ footer {
 }
 
 
-/* Small Devices (Mobile phones and up) */
+/* Small Devices (Mobile phones 480px and up) */
 @media (max-width: 480px) {
 
   img {
@@ -182,20 +187,10 @@ footer { clear: both;
   font-size: x-small;
 }
 
-#blue {
-  background-color: #191645;
-  background-image: url(Images/hard-hat.jpg);
-  box-shadow: inset 0 0 0 1000px rgba(25,22,69,.7);
-  background-position: right;
-  background-repeat: no-repeat;
-  color: white;
-  max-width: 480px;
-}
-
 }
 
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and up) */ /*Got code from codepen.io and revised parts of it*/
 @media only screen and (min-width: 768px) {
 
   header {
@@ -212,9 +207,6 @@ footer { clear: both;
       padding-right: 8px;
     }
   
-    nav .toggle {
-      display: none;
-    }
   
   main {
     padding: 0;
@@ -228,7 +220,7 @@ footer { clear: both;
     }
   }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */ /*Got code ffrom codepenio and changed some of it*/
 @media only screen and (min-width: 1200px) {
   nav ul,
   main {
@@ -236,6 +228,9 @@ footer { clear: both;
     margin: 0 auto;
   }
 }
+
+
+/*The following code was also from codepen.io and some was ofc course changed a bit*/
 label { 
     float: left; clear: left; display: block;
     width: 100px; padding-right: 10px;
